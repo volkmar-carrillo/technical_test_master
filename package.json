@@ -1,0 +1,24 @@
+{
+  "name": "technical_test_master",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkmar-carrillo/technical_test_master.git"
+  },
+  "scripts": {
+    "start": "subpkg run start",
+    "dev": "subpkg run dev",
+    "build": "subpkg run build",
+    "test": "subpkg test",
+    "lint:fix": "subpkg run lint:fix",
+    "prettier:write": "subpkg run prettier:write",
+    "postinstall": "subpkg install"
+  },
+  "subPackages": [
+    "github-api"
+  ],
+  "devDependencies": {
+    "subpackage": "^1.1.0"
+  }
+}
