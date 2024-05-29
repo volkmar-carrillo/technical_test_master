@@ -6,11 +6,11 @@
         "skipLibCheck": true,
         "strict": true,
         "outDir": "./dist",
-        "rootDir": "./src",
+        "rootDir": ".",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "strictNullChecks": false
     },
-    "include": ["src/**/*"],
+    "include": ["src/**/*", "test/**/*"],
     "exclude": ["node_modules"]
 }
